@@ -100,7 +100,7 @@ namespace Microfono
 
         private void BtnDetener_Click(object sender, RoutedEventArgs e)
         {
-            waveIn.StartRecording();
+            waveIn.StopRecording();
         }
     }
 }
